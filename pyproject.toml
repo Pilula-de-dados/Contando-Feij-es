@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "feijaozinho"
+version = "0.1.0"
+description = ""
+authors = ["Juliano Oliveira <oliveira.juliano@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.32.2"
+opencv-python = "^4.9.0.80"
+streamlit-back-camera-input = "^0.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
